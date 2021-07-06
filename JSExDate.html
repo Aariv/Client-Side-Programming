@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Example: The Date object</title>
+
+	<script type="text/javascript">
+		var now = new Date();
+		var hrs = now.getHours();
+		var mins = now.getMinutes();
+		var seconds = now.getSeconds();
+
+		document.writeln("<p>It is "+now+"</p>");
+		document.writeln("<p>Hour is "+hrs+"</p>");
+		document.writeln("<p>Minute is "+mins+"</p>");
+		document.writeln("<p>Second is "+seconds+"</p>");
+		if(hrs < 12) {
+			document.writeln("Good Morning");
+		} else {
+			document.writeln("Good Afternoon");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
