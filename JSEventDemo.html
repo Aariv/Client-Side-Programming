@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Event Demo</title>
+	<script type="text/javascript">
+		function say(message) {
+			alert(message);
+		}
+	</script>
+</head>
+<body>
+	<h2 onmouseover="this.style.color='red'" onmouseout="this.style.color=''">Hello</h2>
+
+	<input type="button" value="click me to say hello" onclick="say('hello')">
+	<p onclick="say('hi')">This paragraph can say hi</p>
+</body>
+</html>

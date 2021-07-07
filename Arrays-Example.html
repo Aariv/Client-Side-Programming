@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Arrays Example</title>
+	<script type="text/javascript">
+		
+		var weekdays = ["sun", "mon", "tue", "wed", "thur", "fri", "sat"];
+
+		document.writeln(weekdays);
+
+		console.log(weekdays);
+
+		// Javascript Array is actually an array
+		console.log(typeof weekdays);
+
+		console.log(weekdays.length);
+
+		var somethings = [1, 2.3, "abc", false];
+
+		console.log(somethings);
+		console.log(somethings.length);
+
+		// Javascipt array is dynamically allocated.
+		//var fruits = []; 
+		var fruits = [];
+
+		console.log(fruits);
+		console.log(fruits.length);
+
+		// Dynamically add item
+		fruits[0] = "apple";
+		console.log(fruits);
+		console.log(fruits.length);
+
+		fruits[3] = "orange";
+		document.writeln(fruits);
+		console.log(fruits);
+		console.log(fruits.length);
+
+		fruits.push("banana");
+		document.writeln(fruits);
+		console.log(fruits);
+		console.log(fruits.length);
+
+
+		// Traversing array
+		for(var i = 0; i < fruits.length; ++i) {
+			console.log(fruits[i]);
+		}
+		// for index in
+		for(var fruit in fruits) {
+			console.log(fruit);
+		}
+
+		// for item of
+		for(var item of fruits) {
+			console.log(item);
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
