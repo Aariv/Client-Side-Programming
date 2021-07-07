@@ -1,0 +1,28 @@
+body {
+	font-family: "Segoe UI", Tahoma, Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	margin: 5px 15px 5px 15px;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+#header #footer {
+	background-color: #eee;
+}
+
+#footer {
+	text-align: right;
+}
+
+.new {
+	color: red;
+}
+
+.highlight {
+	background-color: yellow;
+}

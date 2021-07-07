@@ -1,0 +1,27 @@
+/* Rule 1: Apply to the <body> element and possibily its decendents*/
+body {
+	font-family: "Segoe UI", Tahoma, Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	margin: 5px 15px 5px 15px; /* top right bottom left */
+	padding: 0;
+	background-color: #eee;
+}
+
+/* Rule 2: Apply to <h1> to <h6> elements*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", "Segoe UI", Helvetica, Tahoma, Arial, Verdana, sans-serif;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Rule 3: speciifically for h2, override the previous rule */
+h2 {
+	color: blue;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+	color: blue;
+}
